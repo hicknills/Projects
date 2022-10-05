@@ -1,3 +1,8 @@
+/*
+supporting code for implementing a linked stack.
+*/
+
+
 package support;
 
 public class LLObjectNode<T>
