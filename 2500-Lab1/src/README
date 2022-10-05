@@ -1,0 +1,14 @@
+This project is a "card flipping game". The user specifies how many rows and columns
+of cards there are. (n rows of m columns) this creates a n x m box of cards.
+in this starting position, each card is either face up or face down.
+the user specifies each card, giving the orientation (face up, face down), suit (clubs, spades etc.), and value of the card(A,2,3... - K).
+the user then performs a max of n + m - 2 flips. There are 4 flips: top, bottom, left, and right. 
+the program then outputs all cards that are facing down.
+
+Top flip will take the entire top row of cards, and flip it onto the row directly below. Which changes the orientation of the card.
+Bottom will take entire bottom row and flip onto row above. (also changing orientation of card)
+Left will take the entire left column of cards and flip it onto the column directly to the right.
+Right will take the entire right column, and flip onto the column to it's left.
+Each card is given an integer value for computing, and is then returned to it's card after the flips are performed for output.
+Each flip is performed, and the cards are flipped and stored in an array of stacks.
+main is located in CardStack. 
