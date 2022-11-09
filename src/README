@@ -1,0 +1,11 @@
+This project is code for a analytical program.
+Program is ran from console, and given any single text file.
+Generates 6 different types of linked lists, in order to 
+compare performance of them. List 1 is unsorted, list 2 is sorted,
+list 3 is a self-adjusting list that shifts the word to the front of the
+list every time it is found, list 4 also self-adjusts, but shifts the word
+forward only once when it is found.
+
+Program displays total words in the file, run time, total
+reference changes made(work done), the vocabulary of the file(distinct words),
+and the amount of comparisons that were made while creating each list.
