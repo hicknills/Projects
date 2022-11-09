@@ -1,5 +1,5 @@
 public class List4 extends BaseList implements ListInterface
-{
+{ 
 	/*
 	 * light handed adjustment list. if word is found, it moves up
 	 * one position

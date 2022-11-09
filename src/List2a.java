@@ -1,6 +1,6 @@
 
 public class List2a extends BaseList implements ListInterface
-{
+{ 
 	/*
 	 * list 2a
 	 * save the node you ended on from the last search

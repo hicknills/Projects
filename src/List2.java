@@ -1,6 +1,6 @@
 
 public class List2 extends BaseList implements ListInterface
-{
+{ 
 	/*
 	 * A sorted (alphabetically) linked list. This list should have 
 	 * shorter average search times, because once

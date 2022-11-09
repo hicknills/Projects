@@ -1,6 +1,6 @@
-
+ 
 public class SLNode 
-{
+{ 
 	boolean isSentinel = false;
 	SLNode left, right, up, down = null;
 	String word;

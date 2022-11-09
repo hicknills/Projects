@@ -1,4 +1,4 @@
-/*
+/* 
  * head inserted list
  */
 

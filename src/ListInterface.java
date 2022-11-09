@@ -1,4 +1,4 @@
-// ListInterface.java
+ // ListInterface.java
 //
 // This interface lists all of the methods that the four test lists in this project
 // have to support -- adding a word to the list (aka insert), and getters for the

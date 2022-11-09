@@ -1,6 +1,6 @@
 
 public class List3 extends BaseList implements ListInterface
-{
+{ 
 	/*
 	 * self adjusting list, when a word is found in the list
 	 * that node is move to the head of the list. if word

@@ -1,6 +1,6 @@
 //implementation of linked list data structure
 public class LLNode
-{
+{ 
 	protected LLNode next;
 	protected int count = 0;
 	protected String word;

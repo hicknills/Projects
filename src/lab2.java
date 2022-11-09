@@ -11,7 +11,7 @@ import java.io.*;
  * program runs with an text file as the input, and scans through the file.
  * it generates 4 different lists using different methods, and displays 
  * the time it took to generate the list, # of distinct words in the file,
- * total # of words in the file, and the amount of reference changes that
+ * total # of w ords in the file, and the amount of reference changes that
  * happened while generating each list.
  */
 

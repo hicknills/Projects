@@ -1,5 +1,5 @@
 // BaseList.java
-//
+// 
 // This class is just a starting point for the four lists that will be used in this project.
 // Because the only thing that will differentiate them is the WAY we do the additions to the
 // list, we can put all of the code that's common to ALL of them here, and use inheritance

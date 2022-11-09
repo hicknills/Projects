@@ -1,5 +1,5 @@
 import java.util.Random;
-
+ 
 public class List5 extends BaseList implements ListInterface
 {//skip list
 	
