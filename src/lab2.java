@@ -19,8 +19,7 @@ public class lab2 {
 
 	public static void main(String[] args) throws FileNotFoundException 
 	{
-		//File file = new File(args[0]);
-		File file = new File("C:\\Users\\hickn\\OneDrive\\Documents\\Fall 2022\\EECS 2500 Linear Data Structures\\proj 2 2500 (four lists)\\Project 2\\Text Files\\Test.txt");
+		File file = new File(args[0]);//creates file object using file given in terminal
 		//header
 		System.out.println(" #    List Name      Run Time  Vocabulary  Total Words   Key Comp     Ref Chgs     h");
 		//separator lines
@@ -64,9 +63,12 @@ public class lab2 {
 			Lists[3] = new List4(); // Unsorted, conservative self-adjusting (moves repeated
 			 // word one position towards front of list)
 			//
-			Lists[4] = new List5();
+			Lists[4] = new List5();//skip list. uses probability to create multiple layers
+			//to traverse the list quickly.
 			
-			Lists[5] = new List2a();
+			Lists[5] = new List2a();//edited version of list 2. it remembers the node it left off
+			//from the previous search, and uses an comparison to see if it should continue from there
+			//or start from the beginning of the list
 			
 			
 			String[] ListNames = {"Unsorted", "Sorted", "Self-Adj (Front)",
