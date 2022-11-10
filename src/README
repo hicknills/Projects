@@ -1,4 +1,5 @@
-This project is code for a analytical program.
+This project is code for a text parsing program that was used to
+anaylze different algorithms for adding items to a linked list.
 Program is ran from console, and given any single text file.
 Generates 6 different types of linked lists, in order to 
 compare performance of them. List 1 is unsorted, list 2 is sorted,
